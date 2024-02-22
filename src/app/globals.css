@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #222222;
+}
+
+body {
+  width: 90%;
+}
