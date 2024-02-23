@@ -9,21 +9,19 @@ export function useGetDataHook () {
 
         async function fetchData() {
             const res = await fetch(`${process.env.NEXT_PUBLIC_API_CALL}${process.env.NEXT_PUBLIC_API_KEY}`);
-            const responseData: APIResponse = await res.json();
+            const data:APIResponse = await res.json();
             if (!ignore) {
-                setData(responseData);
+                setData(data);
+            
             }
         }
-        
         if (!ignore) {
             fetchData();
         }
 
         return () => {
             ignore = true;
-        };        
-    }, []);
-
-    return data;
-
+          };        
+    }, [])
+    return data
 }

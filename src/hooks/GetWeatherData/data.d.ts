@@ -3,7 +3,7 @@ interface IntervalValues {
   temperature: number;
   weatherCode: number;
 }
-interface Interval {
+export interface Interval {
   startTime: string;
   values: IntervalValues;
 }

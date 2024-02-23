@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export const CardTodayComponent = ({}) => {
     return (
-        <div className="bg-gray-500 border rounded-lg w-full p-6 col-span-3 flex justify-between items-center">
+        <div className="bg-gray-500 border rounded-lg w-full p-6 col-span-6 flex justify-between items-center">
             <div>
                 <h4 className="font-bold text-xl">Monday</h4>
                 <p>Temperature: 45</p>
