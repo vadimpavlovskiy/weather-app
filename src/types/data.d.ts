@@ -2,6 +2,7 @@ interface IntervalValues {
   humidity: number;
   temperature: number;
   weatherCode: number;
+  windSpeed: number;
 }
 export interface Interval {
   startTime: string;

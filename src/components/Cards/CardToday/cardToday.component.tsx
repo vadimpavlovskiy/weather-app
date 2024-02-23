@@ -1,13 +1,15 @@
 import Image from "next/image"
+import { IProps } from "../card"
 
-export const CardTodayComponent = ({}) => {
+export const CardTodayComponent = ({props}:IProps) => {
+    const dateName = new Date(props.startTime).toLocaleString('en-us', {weekday: 'long', day: 'numeric', month: 'short'}) 
     return (
-        <div className="bg-gray-500 border rounded-lg w-full p-6 col-span-6 flex justify-between items-center">
+        <div className="bg-gray-500 border rounded-lg w-full p-6 col-span-6 flex justify-between items-center cursor-pointer hover:bg-gray-400 hover:scale-105 duration-500">
             <div>
-                <h4 className="font-bold text-xl">Monday</h4>
-                <p>Temperature: 45</p>
-                <p>Humidity: 45%</p>
-                <p>Wind Speed: 45%</p>
+                <h4 className="font-bold text-xl">{dateName}</h4>
+                <p>Temperature: {Math.round(props.values.temperature)}°C</p>
+                <p>Humidity: {Math.round(props.values.humidity)}%</p>
+                <p>Wind Speed: {Math.round(props.values.windSpeed)} km/h</p>
             </div>
             <div>
                 <h4 className="font-bold text-xl">Hourly Forecast</h4>
