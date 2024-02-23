@@ -1,4 +1,4 @@
-import { SearchComponent } from "@/components/search.component"
+import { SearchComponent } from "@/components/Search/search.component"
 
 export const HeaderLayout = ({}) => {
     return (

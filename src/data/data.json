@@ -1,0 +1,67 @@
+{
+    "data": {
+        "timelines": [
+            {
+                "timestep": "1d",
+                "endTime": "2024-02-27T11:00:00Z",
+                "startTime": "2024-02-22T11:00:00Z",
+                "intervals": [
+                    {
+                        "startTime": "2024-02-22T11:00:00Z",
+                        "values": {
+                            "humidity": 91,
+                            "temperature": 6.69,
+                            "weatherCode": 1001,
+                            "windSpeed": 4.19
+                        }
+                    },
+                    {
+                        "startTime": "2024-02-23T11:00:00Z",
+                        "values": {
+                            "humidity": 87.08,
+                            "temperature": 8.58,
+                            "weatherCode": 1001,
+                            "windSpeed": 4.57
+                        }
+                    },
+                    {
+                        "startTime": "2024-02-24T11:00:00Z",
+                        "values": {
+                            "humidity": 76.82,
+                            "temperature": 2.45,
+                            "weatherCode": 1000,
+                            "windSpeed": 6.79
+                        }
+                    },
+                    {
+                        "startTime": "2024-02-25T11:00:00Z",
+                        "values": {
+                            "humidity": 80.1,
+                            "temperature": 2.73,
+                            "weatherCode": 1001,
+                            "windSpeed": 4.56
+                        }
+                    },
+                    {
+                        "startTime": "2024-02-26T11:00:00Z",
+                        "values": {
+                            "humidity": 88.45,
+                            "temperature": 12.95,
+                            "weatherCode": 1001,
+                            "windSpeed": 3.91
+                        }
+                    },
+                    {
+                        "startTime": "2024-02-27T11:00:00Z",
+                        "values": {
+                            "humidity": 91.02,
+                            "temperature": 13.08,
+                            "weatherCode": 1001,
+                            "windSpeed": 4.24
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
