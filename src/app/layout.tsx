@@ -1,4 +1,4 @@
-import { HeaderLayout } from "@/layout/header.layout";
+import { HeaderLayout } from "@/layout/Header/header.layout";
 import "./globals.css";
 
 export default function RootLayout({

@@ -1,5 +1,5 @@
-import { HeaderLayout } from "@/layout/header.layout";
-import { WeatherLayout } from "@/layout/weather.layout";
+import { HeaderLayout } from "@/layout/Header/header.layout";
+import { WeatherLayout } from "@/layout/Weather/weather.layout";
 
 export default function Home() {
   return (
