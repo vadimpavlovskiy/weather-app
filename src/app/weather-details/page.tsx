@@ -1,6 +1,7 @@
 'use client'
 
 import { WeatherContext } from "@/context/weatherContext"
+import { DayWeatherLayout } from "@/layout/DayWeather/dayWeather.layout";
 import { HeaderLayout } from "@/layout/Header/header.layout";
 import { Interval, IntervalData } from "@/types/data";
 import { ParsedUrlQueryInput } from "querystring";
@@ -20,6 +21,7 @@ export default function WeatherDetails(query:any) {
     return (
         <>
             <HeaderLayout />
+            <DayWeatherLayout data={selectedDay.data} />
         </>
     )
 }

@@ -11,12 +11,7 @@ export interface IntervalData {
 
 export interface Interval {
   startTime: string;
-  values: {
-    humidity: number;
-    temperature: number;
-    weatherCode: number;
-    windSpeed: number;
-  };
+  values: IntervalValues;
 }
 export interface Timeline {
   timestep: string;

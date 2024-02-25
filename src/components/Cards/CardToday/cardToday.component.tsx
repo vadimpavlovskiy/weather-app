@@ -7,10 +7,10 @@ export const CardTodayComponent = ({data, day}:{data:Interval[],  day:string}) =
     console.log(data);
     
     return (
-            <div className="bg-gray-500 border rounded-lg w-full p-6 col-span-6  cursor-pointer hover:bg-gray-400 hover:scale-105 duration-500">
+            <div className="rounded-lg text-white bg-darkBlue w-full p-6 col-span-6  cursor-pointer hover:bg-hoverBlue hover:scale-105 duration-500">
                 <Link href={{pathname: '/weather-details', query: {day:day}}} className="flex justify-between items-center">
                 <div className="h-32">
-                    <div className="">
+                    <div>
                     <h4 className="font-bold text-xl">{dateName}</h4>
                         <p>Temperature: {Math.round(data[0].values.temperature)}°C</p>
                         <p>Humidity: {Math.round(data[0].values.humidity)}%</p>

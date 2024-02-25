@@ -8,7 +8,7 @@ export const CardComponent = ({data}:any) => {
     const windSpeed = data[middleofDay].values.windSpeed;
     const humidity = data[middleofDay].values.humidity;
     return (
-        <div className="bg-gray-500 border rounded-lg w-full p-6 cursor-pointer hover:bg-gray-400 hover:scale-105 duration-500">
+        <div className="bg-darkBlue text-white border border-borderGrey rounded-lg w-full p-6 cursor-pointer hover:bg-hoverBlue hover:scale-105 duration-500">
             <Link href={{pathname: '/weather-details'}} className="flex justify-between items-center">
                 <div>
                     <h4 className="font-bold text-xl">{dateName}</h4>
