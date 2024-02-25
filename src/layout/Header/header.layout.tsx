@@ -1,5 +1,4 @@
 import { SearchComponent } from "@/components/Search/search.component"
-import { useGetDataHook } from "@/hooks/GetWeatherData/getDataHook"
 
 export const HeaderLayout = ({}) => {
     

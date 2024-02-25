@@ -4,11 +4,26 @@ interface IntervalValues {
   weatherCode: number;
   windSpeed: number;
 }
+export interface IntervalData {
+  day: string;
+  data: {
+    humidity: number;
+    temperature: number;
+    weatherCode: number;
+    windSpeed: number;
+  };
+}
+
 export interface Interval {
   startTime: string;
-  values: IntervalValues;
+  values: {
+    humidity: number;
+    temperature: number;
+    weatherCode: number;
+    windSpeed: number;
+  };
 }
-interface Timeline {
+export interface Timeline {
   timestep: string;
   endTime: string;
   startTime: string;
