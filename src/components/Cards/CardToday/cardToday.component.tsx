@@ -1,11 +1,14 @@
 import Image from "next/image"
 import Link from "next/link"
 import { IData } from "./props";
-export const CardTodayComponent = ({data}:any) => {
+import { Interval, IntervalData } from "@/types/data";
+export const CardTodayComponent = ({data, day}:{data:Interval[],  day:string}) => {
     const dateName = new Date(data[0].startTime).toLocaleString('en-us', {weekday: 'long', day: 'numeric', month: 'short'});
+    console.log(data);
+    
     return (
             <div className="bg-gray-500 border rounded-lg w-full p-6 col-span-6  cursor-pointer hover:bg-gray-400 hover:scale-105 duration-500">
-                <Link href={{pathname: '/weather-details'}} className="flex justify-between items-center">
+                <Link href={{pathname: '/weather-details', query: {day:day}}} className="flex justify-between items-center">
                 <div className="h-32">
                     <div className="">
                     <h4 className="font-bold text-xl">{dateName}</h4>

@@ -1,5 +1,7 @@
+'use client';
 import { HeaderLayout } from "@/layout/Header/header.layout";
 import "./globals.css";
+import WeatherProvider from "@/context/weatherContext";
 
 export default function RootLayout({
   children,
@@ -7,8 +9,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
+    <WeatherProvider>
+      <html lang="en">
+        <body>{children}</body>
+      </html>
+    </WeatherProvider>
   );
 }

@@ -6,12 +6,7 @@ interface IntervalValues {
 }
 export interface IntervalData {
   day: string;
-  data: {
-    humidity: number;
-    temperature: number;
-    weatherCode: number;
-    windSpeed: number;
-  };
+  data: Interval[];
 }
 
 export interface Interval {

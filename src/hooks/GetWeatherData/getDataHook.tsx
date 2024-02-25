@@ -12,7 +12,6 @@ export function useGetDataHook () {
             const data:APIResponse = await res.json();
             if (!ignore) {
                 setData(data);
-            
             }
         }
         if (!ignore) {
