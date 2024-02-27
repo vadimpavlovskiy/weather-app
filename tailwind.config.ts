@@ -18,7 +18,6 @@ const config: Config = {
         darkBlue: "#253346",
         dark: "#18263A",
         borderGrey: "#00000033",
-
         hoverBlue: "#3E4B5D",
       },
     },

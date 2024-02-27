@@ -3,6 +3,9 @@ interface IntervalValues {
   temperature: number;
   weatherCode: number;
   windSpeed: number;
+  sunriseTime: string;
+  sunsetTime: string;
+  windDirection: number;
 }
 export interface IntervalData {
   day: string;

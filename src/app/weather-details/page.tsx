@@ -21,7 +21,7 @@ export default function WeatherDetails(query:any) {
     return (
         <>
             <HeaderLayout />
-            <DayWeatherLayout data={selectedDay.data} />
+            <DayWeatherLayout day={queryDay} data={selectedDay.data} />
         </>
     )
 }

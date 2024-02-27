@@ -17,22 +17,21 @@ export const WeatherLayout = ({}) => {
     return (
         <div className="grid grid-cols-6 my-14 gap-10 justify-items-center">
             {context?.weatherData && context?.weatherData.map((dayWeather:IntervalData, index:number)=>{
-                console.log(dayWeather);
-                
+                console.log(dayWeather.day);
                 if(index === 0) {
                     return <CardTodayComponent day={dayWeather.day} data={dayWeather.data} key={index} />
                 }
                 else if (index > 0 && index < 3) {
                    return (
                    <div className="w-full col-span-3" key={index}>
-                        <CardComponent data={dayWeather.data}  />
+                        <CardComponent day={dayWeather.day} data={dayWeather.data}  />
                     </div>
                    )
                 }
                 else {
                     return (
                         <div className="w-full col-span-2"key={index}>
-                            <CardComponent data={dayWeather.data}  />
+                            <CardComponent day={dayWeather.day} data={dayWeather.data}  />
                         </div>
                     )
                     }
