@@ -15,7 +15,7 @@ export const WeatherLayout = ({}) => {
     }, [context])
     
     return (
-        <div className="grid grid-cols-6 my-14 gap-10 justify-items-center">
+        <div className="grid grid-cols-6 my-14 gap-10 justify-items-center z-0">
             {context?.weatherData && context?.weatherData.map((dayWeather:IntervalData, index:number)=>{
                 console.log(dayWeather.day);
                 if(index === 0) {
