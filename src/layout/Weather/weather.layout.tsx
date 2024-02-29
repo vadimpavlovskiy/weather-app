@@ -4,15 +4,26 @@ import { CardTodayComponent } from "@/components/Cards/CardToday/cardToday.compo
 import { Interval, IntervalData } from "@/types/data";
 import onedaydata from '@/data/onedaydata.json'
 import { sortDate } from "@/utils/sortData";
-import { Suspense, useContext, useEffect } from "react";
+import { Suspense, useContext, useEffect, useState } from "react";
 import { WeatherContext } from "@/context/weatherContext";
+import { useGetDataHook } from "@/hooks/GetWeatherData/getDataHook";
 export const WeatherLayout = ({}) => {
-    const context = useContext(WeatherContext)
+    const context = useContext(WeatherContext);
+    const lat = context?.cityCoord?.lat ?? 40.75;
+    const lon = context?.cityCoord?.lon ?? -73.98;
+    
+    const weatherFromApI = useGetDataHook(lat, lon);
+    console.log(weatherFromApI);
+    
     useEffect(() => {
-        if (context && context.weatherData === null) {
-            context?.setData(onedaydata)
+        if ( weatherFromApI !== null) {
+            if(weatherFromApI.data) {
+                context?.setData(weatherFromApI.data.timelines[1])
+            } else {
+                context?.setData(null)
+            }
         }
-    }, [context])
+    }, [ weatherFromApI ])
     
     return (
         <div className="grid grid-cols-6 my-14 gap-10 justify-items-center z-0">
@@ -36,7 +47,7 @@ export const WeatherLayout = ({}) => {
                     )
                     }
                 }
-                )
+                ) 
             }
         </div>
     )

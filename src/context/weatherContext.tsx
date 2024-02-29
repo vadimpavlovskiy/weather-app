@@ -10,7 +10,10 @@ const WeatherProvider:  React.FC<{children: React.ReactNode}> = ({children}) => 
         day: string;
         data: any;
     }[] | null>(null);
-
+    const [cityCoord, setCityCoord] = useState<{
+        lat: number,
+        lon: number
+    } | null>(null)
     const setData = (data:any) => {
         const saveData:{
             day: string;
@@ -18,7 +21,10 @@ const WeatherProvider:  React.FC<{children: React.ReactNode}> = ({children}) => 
         }[] = sortDate(data);
         setWeatherData(saveData);
     }
-    return <WeatherContext.Provider value={{setData, weatherData}}>{children}</WeatherContext.Provider>
+    const setCoord = (lat: number, lon:number) => {
+        setCityCoord({lat, lon});
+    }
+    return <WeatherContext.Provider value={{setData, setCoord, weatherData, cityCoord}}>{children}</WeatherContext.Provider>
 }
 
 export default WeatherProvider;

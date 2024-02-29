@@ -1,8 +1,6 @@
 import { Timeline } from "@/types/data";
 
 export function sortDate(weatherData: Timeline) {
-  console.log(weatherData);
-
   const groupedData = weatherData.intervals.reduce((acc: any, obj: any) => {
     const startDay = obj.startTime.split("T")[0];
     if (!acc[startDay]) {
