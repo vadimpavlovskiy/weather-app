@@ -20,7 +20,7 @@ export const CardComponent = ({ data, day }: { data: Interval[]; day: string }) 
                             <p className="text-bold">Humidity: <span className="text-base">{Math.round(humidity)}%</span></p>
                             <p className="text-bold">Wind Speed: <span className="text-base">{Math.round(windSpeed)}km/h</span>  </p>
                         </div>
-                        <FaCloudSunRain color="white" className="h-1/2" size={100} />
+                        <Image width={80} height={80} alt="none" src={`/images/${data[middleofDay].values.weatherCode}0.png`} />
                     </Link>
                 </div>
             </div>

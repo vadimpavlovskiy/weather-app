@@ -5,9 +5,7 @@ import { Interval, IntervalData } from "@/types/data";
 import { FaCloudSunRain } from "react-icons/fa6";
 export const CardTodayComponent = ({ data, day }: { data: Interval[]; day: string }) => {
     const dateName = new Date(data[0].startTime).toLocaleString('en-us', {weekday: 'long', day: 'numeric', month: 'short'});
-    console.log(data);
-    
-    
+
     return (
             <div className="rounded-lg text-white bg-dark w-full p-6 col-span-6  cursor-pointer hover:bg-hoverBlue hover:scale-105 duration-500">
                 <div className="bg-darkBlue border border-borderGrey p-6 rounded-xl">
@@ -29,7 +27,7 @@ export const CardTodayComponent = ({ data, day }: { data: Interval[]; day: strin
                                 return (
                                     <div className="flex flex-col items-center" key={index}>
                                         <p className="text-sm">{hour}:00</p>
-                                        <Image width={30} height={30} alt="none" src={'https://cdn-icons-png.flaticon.com/512/4834/4834559.png'} />
+                                        <Image width={30} height={30} alt="none" src={`/images/${dataSingle.values.weatherCode}0.png`} />
                                         <p className="text-sm">{Math.round(dataSingle.values.temperature)}</p>
                                     </div>
                                 )
@@ -38,7 +36,7 @@ export const CardTodayComponent = ({ data, day }: { data: Interval[]; day: strin
                         </div>
                     </div>
                     <div className="bg-dark p-6 rounded-full border border-borderGrey">
-                        <FaCloudSunRain color="white" className="h-1/2" size={100} />
+                        <Image width={100} height={100} alt="none" src={`/images/${data[0].values.weatherCode}0.png`} />
                     </div>
             </Link>
             </div>

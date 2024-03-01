@@ -26,7 +26,7 @@ export const DayWeatherLayout = ({data, day}:{data: Interval[], day:number}) => 
             <div className="w-full flex justify-between">
                 <div className="flex bg-dark p-6 rounded-xl items-center">
                     <div className="bg-hoverBlue rounded-full p-6">
-                        <FaCloudSunRain color="white" className="h-1/2" size={150} />
+                        <Image width={150} height={150} alt="none" src={`/images/${data[middleArray].values.weatherCode}0.png`} />
                     </div>
                 </div>
                     <div className="flex flex-col ml-10 w-full h-full bg-dark p-6 rounded-xl">

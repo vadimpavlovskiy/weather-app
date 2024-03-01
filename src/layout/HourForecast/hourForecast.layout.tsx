@@ -13,7 +13,7 @@ export const HourForecastLayout = ({data}:{data: Interval[]}) => {
                         {data.map((value:any, index: number) => {
                             const date = new Date(value.startTime).getUTCHours()
                             return (
-                                <SmallCardComponent Icon={FaCloud} key={index} date={date} temperature={value.values.temperature} />
+                                <SmallCardComponent weatherCode={value.values.weatherCode} key={index} date={date} temperature={value.values.temperature} />
                             )
                     })}
                     </div>
