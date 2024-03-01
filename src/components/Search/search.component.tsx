@@ -10,7 +10,6 @@ export const SearchComponent = ({}) => {
 
     const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
         e.preventDefault();
-        setActiveCity(null);
         const value = e.target.value;
         setSearch(value);
     };
@@ -23,6 +22,7 @@ export const SearchComponent = ({}) => {
                 if (search) {
                     const res = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${search.toLowerCase()}&limit=5&appid=${process.env.NEXT_PUBLIC_GEO_KEY}`).then(data => data.json());
                     setCities(res);
+                    
                 }
             } catch (error) {
                 console.error(error);
@@ -35,21 +35,21 @@ export const SearchComponent = ({}) => {
       
     return (
         <div className="flex flex-col w-1/2 relative">
-            <input onChange={(e)=>{handleChange(e); console.log(cities)}} value={search ? search : ''} className="bg-gray-500 text-white w-full focus:bg-gray-500 outline-none px-5 py-4 rounded-md" placeholder="Type Your City" />
-            {
-                search && !activeCity ?
-                <ul className="flex flex-col z-20 absolute mt-20 border border-borderGrey text-white h-35 bg-darkBlue p-6 rounded-xl divide-y divide-transparent space-y-2 w-full">
-                    {cities ? cities?.map((res, index:number) => {
-                        return (
-                    <li onClick={()=>{setActiveCity(`${res.name}, ${res.state}, ${res.country}`); setSearch(`${res.name}, ${res.state}, ${res.country}`); context?.setCoord(res.lat, res.lon)}} key={index} className="p-2 rounded-xl cursor-pointer bg-dark hover:bg-hoverBlue">
-                        {res.name}, {res.state}, {res.country}
-                    </li>
-                        )
-                    }) : ''}
-                </ul> 
-                :
-                ''
-            }
-            </div>
+        <input onChange={(e)=>{handleChange(e); console.log(cities)}} value={search ? search : ''} className="bg-gray-500 text-white w-full focus:bg-gray-500 outline-none px-5 py-4 rounded-md" placeholder="Type Your City" />
+        {
+            search ?
+            <ul className="flex flex-col z-20 absolute mt-20 border border-borderGrey text-white h-35 bg-darkBlue p-6 rounded-xl divide-y divide-transparent space-y-2 w-full">
+                {cities ? cities?.map((res, index:number) => {
+                    return (
+                <li onClick={()=>{context?.setCity(res.name, res.state, res.country); setSearch(null); context?.setCoord(res.lat, res.lon)}} key={index} className="p-2 rounded-xl cursor-pointer bg-dark hover:bg-hoverBlue">
+                    {res.name}, {res.state}, {res.country}
+                </li>
+                    )
+                }) : ''}
+            </ul> 
+            :
+            ''
+        }
+        </div>
     )
 }

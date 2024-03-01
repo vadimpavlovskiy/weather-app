@@ -10,11 +10,12 @@ import { GoArrowDown } from "react-icons/go";
 import { WiStrongWind } from "react-icons/wi";
 import { FaTemperatureHalf } from "react-icons/fa6";
 import { WeatherDetailComponent } from "@/components/WeatherDetailCard/weatherDetailCard.component";
-import { FaCloudSunRain } from "react-icons/fa";
+import { BsGeoAlt } from "react-icons/bs";
 
 
 
-export const DayWeatherLayout = ({data, day}:{data: Interval[], day:number}) => {
+
+export const DayWeatherLayout = ({data, day, city}:{data: Interval[], day:number, city:string | null}) => {
     const formatedDate = new Date(day).toLocaleDateString('en-US', {day: 'numeric', month: 'long', year: 'numeric'});
     const sunSetTime = new Date(data[0].values.sunsetTime).toLocaleTimeString('en-US', {hour: '2-digit', minute: '2-digit'});
     const sunRiseTime = new Date(data[0].values.sunriseTime).toLocaleTimeString('en-US', {hour: '2-digit', minute: '2-digit'})
@@ -30,7 +31,13 @@ export const DayWeatherLayout = ({data, day}:{data: Interval[], day:number}) => 
                     </div>
                 </div>
                     <div className="flex flex-col ml-10 w-full h-full bg-dark p-6 rounded-xl">
-                        <h2 className="font-bold text-2xl text-white">{formatedDate}</h2>
+                        <div className="w-full flex items-center justify-between">
+                            <h2 className="font-bold text-2xl text-white">{formatedDate}</h2>
+                            <div className="flex text-bold text-sm text-white">
+                                <BsGeoAlt color="white" size={20} />
+                                <span className="ml-1">{city}</span>
+                            </div>
+                        </div>
                         <div className="mt-6 text-white grid justify-items-center grid-cols-3 gap-4 bg-darkBlue p-6 rounded-xl border border-borderGrey">
                         <WeatherDetailComponent>
                             <h4 className="font-semibold">Temperature</h4>

@@ -14,6 +14,7 @@ const WeatherProvider:  React.FC<{children: React.ReactNode}> = ({children}) => 
         lat: number,
         lon: number
     } | null>(null)
+    const [activeCity, setActiveCity] = useState<null | string>('New York Country, New York, US');
     const setData = (data:any) => {
         const saveData:{
             day: string;
@@ -24,7 +25,14 @@ const WeatherProvider:  React.FC<{children: React.ReactNode}> = ({children}) => 
     const setCoord = (lat: number, lon:number) => {
         setCityCoord({lat, lon});
     }
-    return <WeatherContext.Provider value={{setData, setCoord, weatherData, cityCoord}}>{children}</WeatherContext.Provider>
+    const setCity = (name?:string | null, state?:string | null, country?:string | null) => {
+        if(name || state || country) {
+            setActiveCity(`${name} ${state ? state : null} ${country ? country : null}`)   
+        } else {
+            setActiveCity(null)
+        }
+    }
+    return <WeatherContext.Provider value={{setData, setCoord, setCity, activeCity, weatherData, cityCoord}}>{children}</WeatherContext.Provider>
 }
 
 export default WeatherProvider;

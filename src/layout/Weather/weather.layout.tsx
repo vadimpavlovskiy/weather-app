@@ -13,7 +13,6 @@ export const WeatherLayout = ({}) => {
     const lon = context?.cityCoord?.lon ?? -73.98;
     
     const weatherFromApI = useGetDataHook(lat, lon);
-    console.log(weatherFromApI);
     
     useEffect(() => {
         if ( weatherFromApI !== null) {
@@ -30,19 +29,19 @@ export const WeatherLayout = ({}) => {
             {context?.weatherData && context?.weatherData.map((dayWeather:IntervalData, index:number)=>{
                 console.log(dayWeather.day);
                 if(index === 0) {
-                    return <CardTodayComponent day={dayWeather.day} data={dayWeather.data} key={index} />
+                    return <CardTodayComponent city={context.activeCity} day={dayWeather.day} data={dayWeather.data} key={index} />
                 }
                 else if (index > 0 && index < 3) {
                    return (
                    <div className="w-full col-span-3" key={index}>
-                        <CardComponent day={dayWeather.day} data={dayWeather.data}  />
+                        <CardComponent city={context.activeCity} day={dayWeather.day} data={dayWeather.data}  />
                     </div>
                    )
                 }
                 else {
                     return (
                         <div className="w-full col-span-2"key={index}>
-                            <CardComponent day={dayWeather.day} data={dayWeather.data}  />
+                            <CardComponent city={context.activeCity} day={dayWeather.day} data={dayWeather.data}  />
                         </div>
                     )
                     }

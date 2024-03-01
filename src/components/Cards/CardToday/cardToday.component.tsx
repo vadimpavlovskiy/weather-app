@@ -3,7 +3,7 @@ import Link from "next/link"
 import { IData } from "./props";
 import { Interval, IntervalData } from "@/types/data";
 import { FaCloudSunRain } from "react-icons/fa6";
-export const CardTodayComponent = ({ data, day }: { data: Interval[]; day: string }) => {
+export const CardTodayComponent = ({ data, day, city }: { data: Interval[]; day: string; city: string | null }) => {
     const dateName = new Date(data[0].startTime).toLocaleString('en-us', {weekday: 'long', day: 'numeric', month: 'short'});
 
     return (
@@ -12,7 +12,7 @@ export const CardTodayComponent = ({ data, day }: { data: Interval[]; day: strin
                 <Link href={{pathname: '/weather-details', query: {day:day}}} className="flex justify-between items-center">
                 <div className="">
                     <div className="bg-dark border border-borderGrey p-6 rounded-xl">
-                    <h4 className="font-bold text-xl mb-4">{dateName}</h4>
+                    <h4 className="font-bold text-xl mb-4">{dateName}, {city}</h4>
                         <p>Temperature: {Math.round(data[0].values.temperature)}°C</p>
                         <p>Humidity: {Math.round(data[0].values.humidity)}%</p>
                         <p>Wind Speed: {Math.round(data[0].values.windSpeed)} km/h</p>

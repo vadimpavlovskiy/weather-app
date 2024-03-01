@@ -10,6 +10,7 @@ import { useContext } from "react"
 export default function WeatherDetails(query:any) {
     const queryDay = query.searchParams.day;    
     const context = useContext(WeatherContext);
+    const city:string = context?.activeCity ?? '';
     console.log(context);
     const selectedDay = context?.weatherData.find((x:IntervalData) => {
         if(x.day === queryDay) {
@@ -21,7 +22,7 @@ export default function WeatherDetails(query:any) {
     return (
         <>
             <HeaderLayout />
-            <DayWeatherLayout day={queryDay} data={selectedDay.data} />
+            <DayWeatherLayout city={city} day={queryDay} data={selectedDay.data} />
         </>
     )
 }
