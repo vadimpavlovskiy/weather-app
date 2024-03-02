@@ -6,9 +6,16 @@ html {
   margin: auto;
   display: flex;
   justify-content: center;
-  background-color: #222222;
 }
 
 body {
   width: 90%;
+}
+[data-theme="dark"] html {
+  background-color: linear-gradient(180deg, #322c54 0%, #231d49 100%);
+  duration: 500s;
+}
+
+[data-theme="light"] html {
+  color: #7269ff;
 }

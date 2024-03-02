@@ -7,9 +7,9 @@ import { useState } from "react"
 export const HourForecastLayout = ({data}:{data: Interval[]}) => {
     const [collapse, setCollapse] = useState(false)
     return (
-        <div onClick={()=>setCollapse(!collapse)} className="mt-5 p-5 bg-dark w-full text-white rounded-xl overflow-hidden">
+        <div onClick={()=>setCollapse(!collapse)} className="bg-hoverBlue text-white mt-5 p-5 border-2 border-borderLight w-full rounded-xl overflow-hidden dark:bg-dark dark:border-borderGrey">
                     <h3 className="text-lg font-bold">Hour Forecast</h3>
-                    <div className={'flex flex-nowrap mt-4 p-4 shadow-inner bg-darkBlue rounded-xl gap-5 overflow-x-auto h-full'}>
+                    <div className={'flex flex-nowrap mt-4 p-4 shadow-inner bg-light rounded-xl gap-5 overflow-x-auto h-full border-2 border-borderLight dark:bg-darkBlue dark:border-borderGrey'}>
                         {data.map((value:any, index: number) => {
                             const date = new Date(value.startTime).getUTCHours()
                             return (

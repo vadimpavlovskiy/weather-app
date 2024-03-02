@@ -1,5 +1,6 @@
 'use client';
 
+import Provider from "@/components/ThemeProvider/themeProvider";
 import "./globals.css";
 
 
@@ -13,7 +14,7 @@ export default function RootLayout({
   return (
     <WeatherProvider>
       <html lang="en">
-        <body>{children}</body>
+          <Provider><body>{children}</body></Provider>
       </html>
     </WeatherProvider>
   );
