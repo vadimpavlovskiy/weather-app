@@ -1,10 +1,8 @@
 'use client'
 import { CardComponent } from "@/components/Cards/Card/card.component"
 import { CardTodayComponent } from "@/components/Cards/CardToday/cardToday.component"
-import { Interval, IntervalData } from "@/types/data";
-import onedaydata from '@/data/onedaydata.json'
-import { sortDate } from "@/utils/sortData";
-import { Suspense, useContext, useEffect, useState } from "react";
+import { IntervalData } from "@/types/data";
+import { useContext, useEffect } from "react";
 import { WeatherContext } from "@/context/weatherContext";
 import { useGetDataHook } from "@/hooks/GetWeatherData/getDataHook";
 export const WeatherLayout = ({}) => {

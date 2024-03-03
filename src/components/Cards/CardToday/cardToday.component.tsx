@@ -1,8 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { IData } from "./props";
-import { Interval, IntervalData } from "@/types/data";
-import { FaCloudSunRain } from "react-icons/fa6";
+import { Interval } from "@/types/data";
 export const CardTodayComponent = ({ data, day, city }: { data: Interval[]; day: string; city: string | null }) => {
     const dateName = new Date(data[0].startTime).toLocaleString('en-us', {weekday: 'long', day: 'numeric', month: 'short'});
 /* Tabs */

@@ -1,7 +1,6 @@
 import { SmallCardComponent } from "@/components/Cards/SmallCard/smallCard.component"
 import { Interval, IntervalData } from "@/types/data"
 import { useState } from "react"
-import { WiStrongWind } from "react-icons/wi"
 
 export const WindForecastLayout = ({data}:{data: Interval[]}) => {
     const [collapse, setCollapse] = useState(false)

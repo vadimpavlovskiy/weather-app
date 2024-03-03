@@ -1,6 +1,5 @@
 'use client'
 import { useTheme } from "next-themes"
-import Image from "next/image";
 import { useEffect, useState } from "react";
 import { MdOutlineWbSunny } from "react-icons/md";
 import { IoIosMoon } from "react-icons/io";
