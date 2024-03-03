@@ -19,7 +19,7 @@ export const CardTodayComponent = ({ data, day, city }: { data: Interval[]; day:
                         <p>Wind Speed: {Math.round(data[0].values.windSpeed)} km/h</p>
                     </div>
                 </div>
-                    <div className="flex flex-col items-center dark:bg-dark rounded-xl p-6">
+                    <div className="lg:flex flex-col items-center max-sm:hidden sm:hidden  dark:bg-dark rounded-xl p-6">
                         <h4 className="text-xl mb-4 font-semibold">Hourly Forecast</h4>
                         <div className="flex gap-10 ">
                         {data.map((dataSingle:IData, index:number) => {
@@ -36,9 +36,7 @@ export const CardTodayComponent = ({ data, day, city }: { data: Interval[]; day:
                         })}
                         </div>
                     </div>
-                    <div className="dark:bg-dark p-6 rounded-full">
                         <Image width={100} height={100} alt="none" src={`/images/${data[0].values.weatherCode}0.png`} />
-                    </div>
             </Link>
             </div>
         </div>

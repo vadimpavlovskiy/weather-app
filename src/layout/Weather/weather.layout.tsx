@@ -33,14 +33,14 @@ export const WeatherLayout = ({}) => {
                 }
                 else if (index > 0 && index < 3) {
                    return (
-                   <div className="w-full col-span-3" key={index}>
+                   <div className="w-full max-sm:col-span-6 sm:col-span-6 xl:col-span-3" key={index}>
                         <CardComponent city={context.activeCity} day={dayWeather.day} data={dayWeather.data}  />
                     </div>
                    )
                 }
                 else {
                     return (
-                        <div className="w-full col-span-2"key={index}>
+                        <div className="w-full max-sm:col-span-6 sm:col-span-6 xl:col-span-2"key={index}>
                             <CardComponent city={context.activeCity} day={dayWeather.day} data={dayWeather.data}  />
                         </div>
                     )
