@@ -19,7 +19,7 @@ export const SearchComponent = ({}) => {
         debounceTimer = setTimeout(async () => {
             try {
                 if (search) {
-                    const res = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${search.toLowerCase()}&limit=5&appid=${process.env.NEXT_PUBLIC_GEO_KEY}`).then(data => data.json());
+                    const res = await fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${search.toLowerCase()}&limit=5&appid=${process.env.NEXT_PUBLIC_GEO_KEY}`).then(data => data.json());
                     setCities(res);
                     
                 }
