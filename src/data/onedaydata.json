@@ -1,0 +1,1459 @@
+{
+    "timestep": "1h",
+    "endTime": "2024-03-02T04:00:00Z",
+    "startTime": "2024-02-26T04:00:00Z",
+    "intervals": [
+        {
+            "startTime": "2024-02-26T04:00:00Z",
+            "values": {
+                "humidity": 48,
+                "sunriseTime": "2024-02-25T23:22:00Z",
+                "sunsetTime": "2024-02-26T09:56:00Z",
+                "temperature": -16.38,
+                "weatherCode": 1102,
+                "windDirection": 83.31,
+                "windSpeed": 1.13
+            }
+        },
+        {
+            "startTime": "2024-02-26T05:00:00Z",
+            "values": {
+                "humidity": 41.77,
+                "sunriseTime": "2024-02-25T23:22:00Z",
+                "sunsetTime": "2024-02-26T09:56:00Z",
+                "temperature": -15.17,
+                "weatherCode": 1000,
+                "windDirection": 64.2,
+                "windSpeed": 1.25
+            }
+        },
+        {
+            "startTime": "2024-02-26T06:00:00Z",
+            "values": {
+                "humidity": 39.57,
+                "sunriseTime": "2024-02-25T23:22:00Z",
+                "sunsetTime": "2024-02-26T09:56:00Z",
+                "temperature": -14.47,
+                "weatherCode": 1000,
+                "windDirection": 64.06,
+                "windSpeed": 1.14
+            }
+        },
+        {
+            "startTime": "2024-02-26T07:00:00Z",
+            "values": {
+                "humidity": 38.56,
+                "sunriseTime": "2024-02-25T23:22:00Z",
+                "sunsetTime": "2024-02-26T09:56:00Z",
+                "temperature": -14.19,
+                "weatherCode": 1101,
+                "windDirection": 68.13,
+                "windSpeed": 0.89
+            }
+        },
+        {
+            "startTime": "2024-02-26T08:00:00Z",
+            "values": {
+                "humidity": 39.47,
+                "sunriseTime": "2024-02-25T23:22:00Z",
+                "sunsetTime": "2024-02-26T09:56:00Z",
+                "temperature": -14.39,
+                "weatherCode": 1102,
+                "windDirection": 74.31,
+                "windSpeed": 0.79
+            }
+        },
+        {
+            "startTime": "2024-02-26T09:00:00Z",
+            "values": {
+                "humidity": 43.15,
+                "sunriseTime": "2024-02-25T23:22:00Z",
+                "sunsetTime": "2024-02-26T09:56:00Z",
+                "temperature": -15.31,
+                "weatherCode": 1101,
+                "windDirection": 92.17,
+                "windSpeed": 1.24
+            }
+        },
+        {
+            "startTime": "2024-02-26T10:00:00Z",
+            "values": {
+                "humidity": 49.07,
+                "sunriseTime": "2024-02-25T23:22:00Z",
+                "sunsetTime": "2024-02-26T09:56:00Z",
+                "temperature": -17.7,
+                "weatherCode": 1100,
+                "windDirection": 92.8,
+                "windSpeed": 1.98
+            }
+        },
+        {
+            "startTime": "2024-02-26T11:00:00Z",
+            "values": {
+                "humidity": 56.32,
+                "sunriseTime": "2024-02-25T23:22:00Z",
+                "sunsetTime": "2024-02-26T09:56:00Z",
+                "temperature": -20.94,
+                "weatherCode": 1100,
+                "windDirection": 55.59,
+                "windSpeed": 2.24
+            }
+        },
+        {
+            "startTime": "2024-02-26T12:00:00Z",
+            "values": {
+                "humidity": 65.73,
+                "sunriseTime": "2024-02-25T23:22:00Z",
+                "sunsetTime": "2024-02-26T09:56:00Z",
+                "temperature": -24.95,
+                "weatherCode": 1000,
+                "windDirection": 43.24,
+                "windSpeed": 2.96
+            }
+        },
+        {
+            "startTime": "2024-02-26T13:00:00Z",
+            "values": {
+                "humidity": 65.24,
+                "sunriseTime": "2024-02-25T23:22:00Z",
+                "sunsetTime": "2024-02-26T09:56:00Z",
+                "temperature": -26.13,
+                "weatherCode": 1000,
+                "windDirection": 54.56,
+                "windSpeed": 3.21
+            }
+        },
+        {
+            "startTime": "2024-02-26T14:00:00Z",
+            "values": {
+                "humidity": 60.14,
+                "sunriseTime": "2024-02-25T23:22:00Z",
+                "sunsetTime": "2024-02-26T09:56:00Z",
+                "temperature": -25.03,
+                "weatherCode": 1100,
+                "windDirection": 54.63,
+                "windSpeed": 2.88
+            }
+        },
+        {
+            "startTime": "2024-02-26T15:00:00Z",
+            "values": {
+                "humidity": 57.67,
+                "sunriseTime": "2024-02-25T23:22:00Z",
+                "sunsetTime": "2024-02-26T09:56:00Z",
+                "temperature": -24.54,
+                "weatherCode": 1101,
+                "windDirection": 43.9,
+                "windSpeed": 2.31
+            }
+        },
+        {
+            "startTime": "2024-02-26T16:00:00Z",
+            "values": {
+                "humidity": 58.29,
+                "sunriseTime": "2024-02-26T23:20:00Z",
+                "sunsetTime": "2024-02-27T09:58:00Z",
+                "temperature": -24.94,
+                "weatherCode": 1101,
+                "windDirection": 37.2,
+                "windSpeed": 2.05
+            }
+        },
+        {
+            "startTime": "2024-02-26T17:00:00Z",
+            "values": {
+                "humidity": 59.89,
+                "sunriseTime": "2024-02-26T23:20:00Z",
+                "sunsetTime": "2024-02-27T09:58:00Z",
+                "temperature": -25.56,
+                "weatherCode": 1102,
+                "windDirection": 52.35,
+                "windSpeed": 2.1
+            }
+        },
+        {
+            "startTime": "2024-02-26T18:00:00Z",
+            "values": {
+                "humidity": 60.99,
+                "sunriseTime": "2024-02-26T23:20:00Z",
+                "sunsetTime": "2024-02-27T09:58:00Z",
+                "temperature": -25.66,
+                "weatherCode": 1001,
+                "windDirection": 62.49,
+                "windSpeed": 2.04
+            }
+        },
+        {
+            "startTime": "2024-02-26T19:00:00Z",
+            "values": {
+                "humidity": 61.02,
+                "sunriseTime": "2024-02-26T23:20:00Z",
+                "sunsetTime": "2024-02-27T09:58:00Z",
+                "temperature": -25.49,
+                "weatherCode": 1001,
+                "windDirection": 56.32,
+                "windSpeed": 1.9
+            }
+        },
+        {
+            "startTime": "2024-02-26T20:00:00Z",
+            "values": {
+                "humidity": 61.95,
+                "sunriseTime": "2024-02-26T23:20:00Z",
+                "sunsetTime": "2024-02-27T09:58:00Z",
+                "temperature": -25.93,
+                "weatherCode": 1101,
+                "windDirection": 55.87,
+                "windSpeed": 1.98
+            }
+        },
+        {
+            "startTime": "2024-02-26T21:00:00Z",
+            "values": {
+                "humidity": 63.97,
+                "sunriseTime": "2024-02-26T23:20:00Z",
+                "sunsetTime": "2024-02-27T09:58:00Z",
+                "temperature": -26.67,
+                "weatherCode": 1101,
+                "windDirection": 59.78,
+                "windSpeed": 2.31
+            }
+        },
+        {
+            "startTime": "2024-02-26T22:00:00Z",
+            "values": {
+                "humidity": 66.44,
+                "sunriseTime": "2024-02-26T23:20:00Z",
+                "sunsetTime": "2024-02-27T09:58:00Z",
+                "temperature": -27.36,
+                "weatherCode": 1001,
+                "windDirection": 61.01,
+                "windSpeed": 2.58
+            }
+        },
+        {
+            "startTime": "2024-02-26T23:00:00Z",
+            "values": {
+                "humidity": 68.26,
+                "sunriseTime": "2024-02-26T23:20:00Z",
+                "sunsetTime": "2024-02-27T09:58:00Z",
+                "temperature": -27.34,
+                "weatherCode": 1001,
+                "windDirection": 59.28,
+                "windSpeed": 2.37
+            }
+        },
+        {
+            "startTime": "2024-02-27T00:00:00Z",
+            "values": {
+                "humidity": 69.17,
+                "sunriseTime": "2024-02-26T23:20:00Z",
+                "sunsetTime": "2024-02-27T09:58:00Z",
+                "temperature": -27.04,
+                "weatherCode": 1001,
+                "windDirection": 56.55,
+                "windSpeed": 1.98
+            }
+        },
+        {
+            "startTime": "2024-02-27T01:00:00Z",
+            "values": {
+                "humidity": 66.77,
+                "sunriseTime": "2024-02-26T23:20:00Z",
+                "sunsetTime": "2024-02-27T09:58:00Z",
+                "temperature": -24.55,
+                "weatherCode": 1001,
+                "windDirection": 63.64,
+                "windSpeed": 1.39
+            }
+        },
+        {
+            "startTime": "2024-02-27T02:00:00Z",
+            "values": {
+                "humidity": 60.08,
+                "sunriseTime": "2024-02-26T23:20:00Z",
+                "sunsetTime": "2024-02-27T09:58:00Z",
+                "temperature": -21.39,
+                "weatherCode": 1001,
+                "windDirection": 70.12,
+                "windSpeed": 1.04
+            }
+        },
+        {
+            "startTime": "2024-02-27T03:00:00Z",
+            "values": {
+                "humidity": 57.49,
+                "sunriseTime": "2024-02-26T23:20:00Z",
+                "sunsetTime": "2024-02-27T09:58:00Z",
+                "temperature": -18.98,
+                "weatherCode": 1001,
+                "windDirection": 71.05,
+                "windSpeed": 0.99
+            }
+        },
+        {
+            "startTime": "2024-02-27T04:00:00Z",
+            "values": {
+                "humidity": 55.09,
+                "sunriseTime": "2024-02-26T23:20:00Z",
+                "sunsetTime": "2024-02-27T09:58:00Z",
+                "temperature": -16.99,
+                "weatherCode": 1001,
+                "windDirection": 72.38,
+                "windSpeed": 0.89
+            }
+        },
+        {
+            "startTime": "2024-02-27T05:00:00Z",
+            "values": {
+                "humidity": 51.16,
+                "sunriseTime": "2024-02-26T23:20:00Z",
+                "sunsetTime": "2024-02-27T09:58:00Z",
+                "temperature": -15.36,
+                "weatherCode": 1001,
+                "windDirection": 99.97,
+                "windSpeed": 0.7
+            }
+        },
+        {
+            "startTime": "2024-02-27T06:00:00Z",
+            "values": {
+                "humidity": 47.47,
+                "sunriseTime": "2024-02-26T23:20:00Z",
+                "sunsetTime": "2024-02-27T09:58:00Z",
+                "temperature": -14.34,
+                "weatherCode": 1001,
+                "windDirection": 186.11,
+                "windSpeed": 0.62
+            }
+        },
+        {
+            "startTime": "2024-02-27T07:00:00Z",
+            "values": {
+                "humidity": 45.42,
+                "sunriseTime": "2024-02-26T23:20:00Z",
+                "sunsetTime": "2024-02-27T09:58:00Z",
+                "temperature": -14.03,
+                "weatherCode": 5001,
+                "windDirection": 184.28,
+                "windSpeed": 0.48
+            }
+        },
+        {
+            "startTime": "2024-02-27T08:00:00Z",
+            "values": {
+                "humidity": 46.3,
+                "sunriseTime": "2024-02-26T23:20:00Z",
+                "sunsetTime": "2024-02-27T09:58:00Z",
+                "temperature": -14.14,
+                "weatherCode": 5001,
+                "windDirection": 105.81,
+                "windSpeed": 0.79
+            }
+        },
+        {
+            "startTime": "2024-02-27T09:00:00Z",
+            "values": {
+                "humidity": 53.17,
+                "sunriseTime": "2024-02-26T23:20:00Z",
+                "sunsetTime": "2024-02-27T09:58:00Z",
+                "temperature": -14.85,
+                "weatherCode": 5001,
+                "windDirection": 90.44,
+                "windSpeed": 1.05
+            }
+        },
+        {
+            "startTime": "2024-02-27T10:00:00Z",
+            "values": {
+                "humidity": 65.5,
+                "sunriseTime": "2024-02-26T23:20:00Z",
+                "sunsetTime": "2024-02-27T09:58:00Z",
+                "temperature": -16.78,
+                "weatherCode": 5001,
+                "windDirection": 60.85,
+                "windSpeed": 1.75
+            }
+        },
+        {
+            "startTime": "2024-02-27T11:00:00Z",
+            "values": {
+                "humidity": 67.48,
+                "sunriseTime": "2024-02-26T23:20:00Z",
+                "sunsetTime": "2024-02-27T09:58:00Z",
+                "temperature": -17.29,
+                "weatherCode": 5001,
+                "windDirection": 60.38,
+                "windSpeed": 2.73
+            }
+        },
+        {
+            "startTime": "2024-02-27T12:00:00Z",
+            "values": {
+                "humidity": 68.38,
+                "sunriseTime": "2024-02-26T23:20:00Z",
+                "sunsetTime": "2024-02-27T09:58:00Z",
+                "temperature": -17.89,
+                "weatherCode": 5001,
+                "windDirection": 57.35,
+                "windSpeed": 2.91
+            }
+        },
+        {
+            "startTime": "2024-02-27T13:00:00Z",
+            "values": {
+                "humidity": 70.26,
+                "sunriseTime": "2024-02-26T23:20:00Z",
+                "sunsetTime": "2024-02-27T09:58:00Z",
+                "temperature": -18.25,
+                "weatherCode": 5001,
+                "windDirection": 58.43,
+                "windSpeed": 2.33
+            }
+        },
+        {
+            "startTime": "2024-02-27T14:00:00Z",
+            "values": {
+                "humidity": 68.65,
+                "sunriseTime": "2024-02-26T23:20:00Z",
+                "sunsetTime": "2024-02-27T09:58:00Z",
+                "temperature": -18.6,
+                "weatherCode": 5001,
+                "windDirection": 75.33,
+                "windSpeed": 1.58
+            }
+        },
+        {
+            "startTime": "2024-02-27T15:00:00Z",
+            "values": {
+                "humidity": 69.09,
+                "sunriseTime": "2024-02-26T23:20:00Z",
+                "sunsetTime": "2024-02-27T09:58:00Z",
+                "temperature": -19.82,
+                "weatherCode": 5001,
+                "windDirection": 84.5,
+                "windSpeed": 1.46
+            }
+        },
+        {
+            "startTime": "2024-02-27T16:00:00Z",
+            "values": {
+                "humidity": 69.81,
+                "sunriseTime": "2024-02-27T23:17:00Z",
+                "sunsetTime": "2024-02-28T09:59:00Z",
+                "temperature": -20.05,
+                "weatherCode": 5001,
+                "windDirection": 115.68,
+                "windSpeed": 1.5
+            }
+        },
+        {
+            "startTime": "2024-02-27T17:00:00Z",
+            "values": {
+                "humidity": 73.09,
+                "sunriseTime": "2024-02-27T23:17:00Z",
+                "sunsetTime": "2024-02-28T09:59:00Z",
+                "temperature": -20.97,
+                "weatherCode": 5001,
+                "windDirection": 128.99,
+                "windSpeed": 1.53
+            }
+        },
+        {
+            "startTime": "2024-02-27T18:00:00Z",
+            "values": {
+                "humidity": 74.56,
+                "sunriseTime": "2024-02-27T23:17:00Z",
+                "sunsetTime": "2024-02-28T09:59:00Z",
+                "temperature": -20.8,
+                "weatherCode": 5001,
+                "windDirection": 110.64,
+                "windSpeed": 0.72
+            }
+        },
+        {
+            "startTime": "2024-02-27T19:00:00Z",
+            "values": {
+                "humidity": 78.39,
+                "sunriseTime": "2024-02-27T23:17:00Z",
+                "sunsetTime": "2024-02-28T09:59:00Z",
+                "temperature": -22,
+                "weatherCode": 5001,
+                "windDirection": 60,
+                "windSpeed": 0.79
+            }
+        },
+        {
+            "startTime": "2024-02-27T20:00:00Z",
+            "values": {
+                "humidity": 79.99,
+                "sunriseTime": "2024-02-27T23:17:00Z",
+                "sunsetTime": "2024-02-28T09:59:00Z",
+                "temperature": -22.04,
+                "weatherCode": 5001,
+                "windDirection": 63.58,
+                "windSpeed": 0.93
+            }
+        },
+        {
+            "startTime": "2024-02-27T21:00:00Z",
+            "values": {
+                "humidity": 81.16,
+                "sunriseTime": "2024-02-27T23:17:00Z",
+                "sunsetTime": "2024-02-28T09:59:00Z",
+                "temperature": -21.8,
+                "weatherCode": 5001,
+                "windDirection": 63.4,
+                "windSpeed": 0.82
+            }
+        },
+        {
+            "startTime": "2024-02-27T22:00:00Z",
+            "values": {
+                "humidity": 82.33,
+                "sunriseTime": "2024-02-27T23:17:00Z",
+                "sunsetTime": "2024-02-28T09:59:00Z",
+                "temperature": -21.98,
+                "weatherCode": 5001,
+                "windDirection": 17.87,
+                "windSpeed": 0.68
+            }
+        },
+        {
+            "startTime": "2024-02-27T23:00:00Z",
+            "values": {
+                "humidity": 81.97,
+                "sunriseTime": "2024-02-27T23:17:00Z",
+                "sunsetTime": "2024-02-28T09:59:00Z",
+                "temperature": -22.14,
+                "weatherCode": 5001,
+                "windDirection": 351.39,
+                "windSpeed": 0.75
+            }
+        },
+        {
+            "startTime": "2024-02-28T00:00:00Z",
+            "values": {
+                "humidity": 81.32,
+                "sunriseTime": "2024-02-27T23:17:00Z",
+                "sunsetTime": "2024-02-28T09:59:00Z",
+                "temperature": -22.33,
+                "weatherCode": 5001,
+                "windDirection": 335.85,
+                "windSpeed": 0.74
+            }
+        },
+        {
+            "startTime": "2024-02-28T01:00:00Z",
+            "values": {
+                "humidity": 74.65,
+                "sunriseTime": "2024-02-27T23:17:00Z",
+                "sunsetTime": "2024-02-28T09:59:00Z",
+                "temperature": -20.84,
+                "weatherCode": 5001,
+                "windDirection": 42.89,
+                "windSpeed": 1.06
+            }
+        },
+        {
+            "startTime": "2024-02-28T02:00:00Z",
+            "values": {
+                "humidity": 69.97,
+                "sunriseTime": "2024-02-27T23:17:00Z",
+                "sunsetTime": "2024-02-28T09:59:00Z",
+                "temperature": -19.12,
+                "weatherCode": 5001,
+                "windDirection": 51.44,
+                "windSpeed": 2
+            }
+        },
+        {
+            "startTime": "2024-02-28T03:00:00Z",
+            "values": {
+                "humidity": 67.36,
+                "sunriseTime": "2024-02-27T23:17:00Z",
+                "sunsetTime": "2024-02-28T09:59:00Z",
+                "temperature": -17.77,
+                "weatherCode": 5001,
+                "windDirection": 54.1,
+                "windSpeed": 2.35
+            }
+        },
+        {
+            "startTime": "2024-02-28T04:00:00Z",
+            "values": {
+                "humidity": 63.52,
+                "sunriseTime": "2024-02-27T23:17:00Z",
+                "sunsetTime": "2024-02-28T09:59:00Z",
+                "temperature": -16.54,
+                "weatherCode": 5001,
+                "windDirection": 55.16,
+                "windSpeed": 2.59
+            }
+        },
+        {
+            "startTime": "2024-02-28T05:00:00Z",
+            "values": {
+                "humidity": 56.43,
+                "sunriseTime": "2024-02-27T23:17:00Z",
+                "sunsetTime": "2024-02-28T09:59:00Z",
+                "temperature": -15.88,
+                "weatherCode": 5001,
+                "windDirection": 58.77,
+                "windSpeed": 2.59
+            }
+        },
+        {
+            "startTime": "2024-02-28T06:00:00Z",
+            "values": {
+                "humidity": 51.73,
+                "sunriseTime": "2024-02-27T23:17:00Z",
+                "sunsetTime": "2024-02-28T09:59:00Z",
+                "temperature": -15.17,
+                "weatherCode": 5001,
+                "windDirection": 57.25,
+                "windSpeed": 2.36
+            }
+        },
+        {
+            "startTime": "2024-02-28T07:00:00Z",
+            "values": {
+                "humidity": 49.64,
+                "sunriseTime": "2024-02-27T23:17:00Z",
+                "sunsetTime": "2024-02-28T09:59:00Z",
+                "temperature": -14.81,
+                "weatherCode": 5001,
+                "windDirection": 48.6,
+                "windSpeed": 2.26
+            }
+        },
+        {
+            "startTime": "2024-02-28T08:00:00Z",
+            "values": {
+                "humidity": 47.72,
+                "sunriseTime": "2024-02-27T23:17:00Z",
+                "sunsetTime": "2024-02-28T09:59:00Z",
+                "temperature": -15.05,
+                "weatherCode": 5001,
+                "windDirection": 40.34,
+                "windSpeed": 2.59
+            }
+        },
+        {
+            "startTime": "2024-02-28T09:00:00Z",
+            "values": {
+                "humidity": 45.57,
+                "sunriseTime": "2024-02-27T23:17:00Z",
+                "sunsetTime": "2024-02-28T09:59:00Z",
+                "temperature": -15.77,
+                "weatherCode": 5001,
+                "windDirection": 38.63,
+                "windSpeed": 2.37
+            }
+        },
+        {
+            "startTime": "2024-02-28T10:00:00Z",
+            "values": {
+                "humidity": 54.48,
+                "sunriseTime": "2024-02-27T23:17:00Z",
+                "sunsetTime": "2024-02-28T09:59:00Z",
+                "temperature": -17.52,
+                "weatherCode": 5001,
+                "windDirection": 29.52,
+                "windSpeed": 1.85
+            }
+        },
+        {
+            "startTime": "2024-02-28T11:00:00Z",
+            "values": {
+                "humidity": 62.87,
+                "sunriseTime": "2024-02-27T23:17:00Z",
+                "sunsetTime": "2024-02-28T09:59:00Z",
+                "temperature": -18.73,
+                "weatherCode": 5001,
+                "windDirection": 32.73,
+                "windSpeed": 2.09
+            }
+        },
+        {
+            "startTime": "2024-02-28T12:00:00Z",
+            "values": {
+                "humidity": 68.97,
+                "sunriseTime": "2024-02-27T23:17:00Z",
+                "sunsetTime": "2024-02-28T09:59:00Z",
+                "temperature": -19.08,
+                "weatherCode": 5001,
+                "windDirection": 36.94,
+                "windSpeed": 2.32
+            }
+        },
+        {
+            "startTime": "2024-02-28T13:00:00Z",
+            "values": {
+                "humidity": 69.62,
+                "sunriseTime": "2024-02-27T23:17:00Z",
+                "sunsetTime": "2024-02-28T09:59:00Z",
+                "temperature": -20.01,
+                "weatherCode": 5001,
+                "windDirection": 31.97,
+                "windSpeed": 2.48
+            }
+        },
+        {
+            "startTime": "2024-02-28T14:00:00Z",
+            "values": {
+                "humidity": 69.51,
+                "sunriseTime": "2024-02-27T23:17:00Z",
+                "sunsetTime": "2024-02-28T09:59:00Z",
+                "temperature": -21.28,
+                "weatherCode": 1100,
+                "windDirection": 35.17,
+                "windSpeed": 2.31
+            }
+        },
+        {
+            "startTime": "2024-02-28T15:00:00Z",
+            "values": {
+                "humidity": 70.07,
+                "sunriseTime": "2024-02-27T23:17:00Z",
+                "sunsetTime": "2024-02-28T09:59:00Z",
+                "temperature": -23.89,
+                "weatherCode": 1000,
+                "windDirection": 27.5,
+                "windSpeed": 2.13
+            }
+        },
+        {
+            "startTime": "2024-02-28T16:00:00Z",
+            "values": {
+                "humidity": 76.32,
+                "sunriseTime": "2024-02-28T23:15:00Z",
+                "sunsetTime": "2024-02-29T10:01:00Z",
+                "temperature": -28.13,
+                "weatherCode": 1000,
+                "windDirection": 11.84,
+                "windSpeed": 3.4
+            }
+        },
+        {
+            "startTime": "2024-02-28T17:00:00Z",
+            "values": {
+                "humidity": 76.69,
+                "sunriseTime": "2024-02-28T23:15:00Z",
+                "sunsetTime": "2024-02-29T10:01:00Z",
+                "temperature": -28.11,
+                "weatherCode": 1000,
+                "windDirection": 357.69,
+                "windSpeed": 3.35
+            }
+        },
+        {
+            "startTime": "2024-02-28T18:00:00Z",
+            "values": {
+                "humidity": 77.53,
+                "sunriseTime": "2024-02-28T23:15:00Z",
+                "sunsetTime": "2024-02-29T10:01:00Z",
+                "temperature": -27.81,
+                "weatherCode": 1000,
+                "windDirection": 343.42,
+                "windSpeed": 2.71
+            }
+        },
+        {
+            "startTime": "2024-02-28T19:00:00Z",
+            "values": {
+                "humidity": 78.33,
+                "sunriseTime": "2024-02-28T23:15:00Z",
+                "sunsetTime": "2024-02-29T10:01:00Z",
+                "temperature": -28.11,
+                "weatherCode": 1000,
+                "windDirection": 318.38,
+                "windSpeed": 2.01
+            }
+        },
+        {
+            "startTime": "2024-02-28T20:00:00Z",
+            "values": {
+                "humidity": 79.52,
+                "sunriseTime": "2024-02-28T23:15:00Z",
+                "sunsetTime": "2024-02-29T10:01:00Z",
+                "temperature": -28.09,
+                "weatherCode": 1000,
+                "windDirection": 286.46,
+                "windSpeed": 1.36
+            }
+        },
+        {
+            "startTime": "2024-02-28T21:00:00Z",
+            "values": {
+                "humidity": 84.78,
+                "sunriseTime": "2024-02-28T23:15:00Z",
+                "sunsetTime": "2024-02-29T10:01:00Z",
+                "temperature": -30,
+                "weatherCode": 1000,
+                "windDirection": 260.01,
+                "windSpeed": 1.41
+            }
+        },
+        {
+            "startTime": "2024-02-28T22:00:00Z",
+            "values": {
+                "humidity": 85.47,
+                "sunriseTime": "2024-02-28T23:15:00Z",
+                "sunsetTime": "2024-02-29T10:01:00Z",
+                "temperature": -31.24,
+                "weatherCode": 1000,
+                "windDirection": 252.31,
+                "windSpeed": 1.82
+            }
+        },
+        {
+            "startTime": "2024-02-28T23:00:00Z",
+            "values": {
+                "humidity": 85.61,
+                "sunriseTime": "2024-02-28T23:15:00Z",
+                "sunsetTime": "2024-02-29T10:01:00Z",
+                "temperature": -32.77,
+                "weatherCode": 1000,
+                "windDirection": 252.08,
+                "windSpeed": 2.31
+            }
+        },
+        {
+            "startTime": "2024-02-29T00:00:00Z",
+            "values": {
+                "humidity": 79.66,
+                "sunriseTime": "2024-02-28T23:15:00Z",
+                "sunsetTime": "2024-02-29T10:01:00Z",
+                "temperature": -32.76,
+                "weatherCode": 1000,
+                "windDirection": 250.65,
+                "windSpeed": 2.41
+            }
+        },
+        {
+            "startTime": "2024-02-29T01:00:00Z",
+            "values": {
+                "humidity": 66.59,
+                "sunriseTime": "2024-02-28T23:15:00Z",
+                "sunsetTime": "2024-02-29T10:01:00Z",
+                "temperature": -27.2,
+                "weatherCode": 1000,
+                "windDirection": 232.81,
+                "windSpeed": 1.39
+            }
+        },
+        {
+            "startTime": "2024-02-29T02:00:00Z",
+            "values": {
+                "humidity": 52.68,
+                "sunriseTime": "2024-02-28T23:15:00Z",
+                "sunsetTime": "2024-02-29T10:01:00Z",
+                "temperature": -21.7,
+                "weatherCode": 1000,
+                "windDirection": 230.23,
+                "windSpeed": 1.09
+            }
+        },
+        {
+            "startTime": "2024-02-29T03:00:00Z",
+            "values": {
+                "humidity": 47.27,
+                "sunriseTime": "2024-02-28T23:15:00Z",
+                "sunsetTime": "2024-02-29T10:01:00Z",
+                "temperature": -18.33,
+                "weatherCode": 1000,
+                "windDirection": 258.87,
+                "windSpeed": 0.92
+            }
+        },
+        {
+            "startTime": "2024-02-29T04:00:00Z",
+            "values": {
+                "humidity": 42.36,
+                "sunriseTime": "2024-02-28T23:15:00Z",
+                "sunsetTime": "2024-02-29T10:01:00Z",
+                "temperature": -16.37,
+                "weatherCode": 1000,
+                "windDirection": 290.58,
+                "windSpeed": 1.15
+            }
+        },
+        {
+            "startTime": "2024-02-29T05:00:00Z",
+            "values": {
+                "humidity": 38.88,
+                "sunriseTime": "2024-02-28T23:15:00Z",
+                "sunsetTime": "2024-02-29T10:01:00Z",
+                "temperature": -15.17,
+                "weatherCode": 1000,
+                "windDirection": 295.34,
+                "windSpeed": 1.6
+            }
+        },
+        {
+            "startTime": "2024-02-29T06:00:00Z",
+            "values": {
+                "humidity": 37.17,
+                "sunriseTime": "2024-02-28T23:15:00Z",
+                "sunsetTime": "2024-02-29T10:01:00Z",
+                "temperature": -14.36,
+                "weatherCode": 1000,
+                "windDirection": 292.92,
+                "windSpeed": 1.98
+            }
+        },
+        {
+            "startTime": "2024-02-29T07:00:00Z",
+            "values": {
+                "humidity": 37.77,
+                "sunriseTime": "2024-02-28T23:15:00Z",
+                "sunsetTime": "2024-02-29T10:01:00Z",
+                "temperature": -13.97,
+                "weatherCode": 1000,
+                "windDirection": 290.52,
+                "windSpeed": 2.16
+            }
+        },
+        {
+            "startTime": "2024-02-29T08:00:00Z",
+            "values": {
+                "humidity": 40.52,
+                "sunriseTime": "2024-02-28T23:15:00Z",
+                "sunsetTime": "2024-02-29T10:01:00Z",
+                "temperature": -14,
+                "weatherCode": 1000,
+                "windDirection": 287.11,
+                "windSpeed": 2.25
+            }
+        },
+        {
+            "startTime": "2024-02-29T09:00:00Z",
+            "values": {
+                "humidity": 54.39,
+                "sunriseTime": "2024-02-28T23:15:00Z",
+                "sunsetTime": "2024-02-29T10:01:00Z",
+                "temperature": -15.47,
+                "weatherCode": 1000,
+                "windDirection": 273.17,
+                "windSpeed": 2.09
+            }
+        },
+        {
+            "startTime": "2024-02-29T10:00:00Z",
+            "values": {
+                "humidity": 61.45,
+                "sunriseTime": "2024-02-28T23:15:00Z",
+                "sunsetTime": "2024-02-29T10:01:00Z",
+                "temperature": -20.83,
+                "weatherCode": 1000,
+                "windDirection": 252.81,
+                "windSpeed": 1.72
+            }
+        },
+        {
+            "startTime": "2024-02-29T11:00:00Z",
+            "values": {
+                "humidity": 69.79,
+                "sunriseTime": "2024-02-28T23:15:00Z",
+                "sunsetTime": "2024-02-29T10:01:00Z",
+                "temperature": -25.53,
+                "weatherCode": 1000,
+                "windDirection": 257.6,
+                "windSpeed": 1.76
+            }
+        },
+        {
+            "startTime": "2024-02-29T12:00:00Z",
+            "values": {
+                "humidity": 72.31,
+                "sunriseTime": "2024-02-28T23:15:00Z",
+                "sunsetTime": "2024-02-29T10:01:00Z",
+                "temperature": -27.69,
+                "weatherCode": 1000,
+                "windDirection": 254.83,
+                "windSpeed": 1.42
+            }
+        },
+        {
+            "startTime": "2024-02-29T13:00:00Z",
+            "values": {
+                "humidity": 73.24,
+                "sunriseTime": "2024-02-28T23:15:00Z",
+                "sunsetTime": "2024-02-29T10:01:00Z",
+                "temperature": -29.12,
+                "weatherCode": 1100,
+                "windDirection": 243.19,
+                "windSpeed": 1.14
+            }
+        },
+        {
+            "startTime": "2024-02-29T14:00:00Z",
+            "values": {
+                "humidity": 73.19,
+                "sunriseTime": "2024-02-28T23:15:00Z",
+                "sunsetTime": "2024-02-29T10:01:00Z",
+                "temperature": -29.9,
+                "weatherCode": 1100,
+                "windDirection": 240.97,
+                "windSpeed": 1.14
+            }
+        },
+        {
+            "startTime": "2024-02-29T15:00:00Z",
+            "values": {
+                "humidity": 73.23,
+                "sunriseTime": "2024-02-28T23:15:00Z",
+                "sunsetTime": "2024-02-29T10:01:00Z",
+                "temperature": -30.54,
+                "weatherCode": 1100,
+                "windDirection": 244.42,
+                "windSpeed": 1.03
+            }
+        },
+        {
+            "startTime": "2024-02-29T16:00:00Z",
+            "values": {
+                "humidity": 73.23,
+                "sunriseTime": "2024-02-29T23:13:00Z",
+                "sunsetTime": "2024-03-01T10:03:00Z",
+                "temperature": -31.03,
+                "weatherCode": 1100,
+                "windDirection": 244.77,
+                "windSpeed": 0.96
+            }
+        },
+        {
+            "startTime": "2024-02-29T17:00:00Z",
+            "values": {
+                "humidity": 73.35,
+                "sunriseTime": "2024-02-29T23:13:00Z",
+                "sunsetTime": "2024-03-01T10:03:00Z",
+                "temperature": -31.19,
+                "weatherCode": 1100,
+                "windDirection": 240.34,
+                "windSpeed": 0.94
+            }
+        },
+        {
+            "startTime": "2024-02-29T18:00:00Z",
+            "values": {
+                "humidity": 73.41,
+                "sunriseTime": "2024-02-29T23:13:00Z",
+                "sunsetTime": "2024-03-01T10:03:00Z",
+                "temperature": -30.6,
+                "weatherCode": 1101,
+                "windDirection": 237.49,
+                "windSpeed": 0.87
+            }
+        },
+        {
+            "startTime": "2024-02-29T19:00:00Z",
+            "values": {
+                "humidity": 74.81,
+                "sunriseTime": "2024-02-29T23:13:00Z",
+                "sunsetTime": "2024-03-01T10:03:00Z",
+                "temperature": -27.82,
+                "weatherCode": 1001,
+                "windDirection": 235.07,
+                "windSpeed": 0.61
+            }
+        },
+        {
+            "startTime": "2024-02-29T20:00:00Z",
+            "values": {
+                "humidity": 75.17,
+                "sunriseTime": "2024-02-29T23:13:00Z",
+                "sunsetTime": "2024-03-01T10:03:00Z",
+                "temperature": -26.41,
+                "weatherCode": 1001,
+                "windDirection": 243.46,
+                "windSpeed": 0.59
+            }
+        },
+        {
+            "startTime": "2024-02-29T21:00:00Z",
+            "values": {
+                "humidity": 75.04,
+                "sunriseTime": "2024-02-29T23:13:00Z",
+                "sunsetTime": "2024-03-01T10:03:00Z",
+                "temperature": -25.32,
+                "weatherCode": 1001,
+                "windDirection": 240.85,
+                "windSpeed": 0.57
+            }
+        },
+        {
+            "startTime": "2024-02-29T22:00:00Z",
+            "values": {
+                "humidity": 76.07,
+                "sunriseTime": "2024-02-29T23:13:00Z",
+                "sunsetTime": "2024-03-01T10:03:00Z",
+                "temperature": -25.41,
+                "weatherCode": 1001,
+                "windDirection": 236.42,
+                "windSpeed": 0.65
+            }
+        },
+        {
+            "startTime": "2024-02-29T23:00:00Z",
+            "values": {
+                "humidity": 76.31,
+                "sunriseTime": "2024-02-29T23:13:00Z",
+                "sunsetTime": "2024-03-01T10:03:00Z",
+                "temperature": -25.9,
+                "weatherCode": 1001,
+                "windDirection": 240.72,
+                "windSpeed": 0.59
+            }
+        },
+        {
+            "startTime": "2024-03-01T00:00:00Z",
+            "values": {
+                "humidity": 74.73,
+                "sunriseTime": "2024-02-29T23:13:00Z",
+                "sunsetTime": "2024-03-01T10:03:00Z",
+                "temperature": -24.62,
+                "weatherCode": 1001,
+                "windDirection": 242.06,
+                "windSpeed": 0.53
+            }
+        },
+        {
+            "startTime": "2024-03-01T01:00:00Z",
+            "values": {
+                "humidity": 70.25,
+                "sunriseTime": "2024-02-29T23:13:00Z",
+                "sunsetTime": "2024-03-01T10:03:00Z",
+                "temperature": -23.07,
+                "weatherCode": 1001,
+                "windDirection": 237.38,
+                "windSpeed": 0.7
+            }
+        },
+        {
+            "startTime": "2024-03-01T02:00:00Z",
+            "values": {
+                "humidity": 70.01,
+                "sunriseTime": "2024-02-29T23:13:00Z",
+                "sunsetTime": "2024-03-01T10:03:00Z",
+                "temperature": -19.49,
+                "weatherCode": 1001,
+                "windDirection": 249.61,
+                "windSpeed": 0.7
+            }
+        },
+        {
+            "startTime": "2024-03-01T03:00:00Z",
+            "values": {
+                "humidity": 68.41,
+                "sunriseTime": "2024-02-29T23:13:00Z",
+                "sunsetTime": "2024-03-01T10:03:00Z",
+                "temperature": -16.98,
+                "weatherCode": 1001,
+                "windDirection": 261.09,
+                "windSpeed": 0.86
+            }
+        },
+        {
+            "startTime": "2024-03-01T04:00:00Z",
+            "values": {
+                "humidity": 66.94,
+                "sunriseTime": "2024-02-29T23:13:00Z",
+                "sunsetTime": "2024-03-01T10:03:00Z",
+                "temperature": -14.84,
+                "weatherCode": 1001,
+                "windDirection": 269.68,
+                "windSpeed": 1
+            }
+        },
+        {
+            "startTime": "2024-03-01T05:00:00Z",
+            "values": {
+                "humidity": 65.62,
+                "sunriseTime": "2024-02-29T23:13:00Z",
+                "sunsetTime": "2024-03-01T10:03:00Z",
+                "temperature": -13.05,
+                "weatherCode": 1001,
+                "windDirection": 267.6,
+                "windSpeed": 0.85
+            }
+        },
+        {
+            "startTime": "2024-03-01T06:00:00Z",
+            "values": {
+                "humidity": 63.93,
+                "sunriseTime": "2024-02-29T23:13:00Z",
+                "sunsetTime": "2024-03-01T10:03:00Z",
+                "temperature": -11.78,
+                "weatherCode": 1001,
+                "windDirection": 265.94,
+                "windSpeed": 0.68
+            }
+        },
+        {
+            "startTime": "2024-03-01T07:00:00Z",
+            "values": {
+                "humidity": 61.62,
+                "sunriseTime": "2024-02-29T23:13:00Z",
+                "sunsetTime": "2024-03-01T10:03:00Z",
+                "temperature": -10.99,
+                "weatherCode": 1001,
+                "windDirection": 269.26,
+                "windSpeed": 0.55
+            }
+        },
+        {
+            "startTime": "2024-03-01T08:00:00Z",
+            "values": {
+                "humidity": 60.43,
+                "sunriseTime": "2024-02-29T23:13:00Z",
+                "sunsetTime": "2024-03-01T10:03:00Z",
+                "temperature": -10.83,
+                "weatherCode": 1001,
+                "windDirection": 275.59,
+                "windSpeed": 0.55
+            }
+        },
+        {
+            "startTime": "2024-03-01T09:00:00Z",
+            "values": {
+                "humidity": 75.87,
+                "sunriseTime": "2024-02-29T23:13:00Z",
+                "sunsetTime": "2024-03-01T10:03:00Z",
+                "temperature": -12.09,
+                "weatherCode": 1001,
+                "windDirection": 127.55,
+                "windSpeed": 0.59
+            }
+        },
+        {
+            "startTime": "2024-03-01T10:00:00Z",
+            "values": {
+                "humidity": 79.92,
+                "sunriseTime": "2024-02-29T23:13:00Z",
+                "sunsetTime": "2024-03-01T10:03:00Z",
+                "temperature": -17.21,
+                "weatherCode": 1001,
+                "windDirection": 118.78,
+                "windSpeed": 0.7
+            }
+        },
+        {
+            "startTime": "2024-03-01T11:00:00Z",
+            "values": {
+                "humidity": 79.4,
+                "sunriseTime": "2024-02-29T23:13:00Z",
+                "sunsetTime": "2024-03-01T10:03:00Z",
+                "temperature": -20.71,
+                "weatherCode": 1001,
+                "windDirection": 120.7,
+                "windSpeed": 0.65
+            }
+        },
+        {
+            "startTime": "2024-03-01T12:00:00Z",
+            "values": {
+                "humidity": 78.45,
+                "sunriseTime": "2024-02-29T23:13:00Z",
+                "sunsetTime": "2024-03-01T10:03:00Z",
+                "temperature": -23.07,
+                "weatherCode": 1001,
+                "windDirection": 127.65,
+                "windSpeed": 0.53
+            }
+        },
+        {
+            "startTime": "2024-03-01T13:00:00Z",
+            "values": {
+                "humidity": 78.04,
+                "sunriseTime": "2024-02-29T23:13:00Z",
+                "sunsetTime": "2024-03-01T10:03:00Z",
+                "temperature": -25.27,
+                "weatherCode": 1100,
+                "windDirection": 258.25,
+                "windSpeed": 0.62
+            }
+        },
+        {
+            "startTime": "2024-03-01T14:00:00Z",
+            "values": {
+                "humidity": 77.03,
+                "sunriseTime": "2024-02-29T23:13:00Z",
+                "sunsetTime": "2024-03-01T10:03:00Z",
+                "temperature": -26.28,
+                "weatherCode": 1101,
+                "windDirection": 258.24,
+                "windSpeed": 0.6
+            }
+        },
+        {
+            "startTime": "2024-03-01T15:00:00Z",
+            "values": {
+                "humidity": 76.36,
+                "sunriseTime": "2024-02-29T23:13:00Z",
+                "sunsetTime": "2024-03-01T10:03:00Z",
+                "temperature": -27.03,
+                "weatherCode": 1001,
+                "windDirection": 265.8,
+                "windSpeed": 0.85
+            }
+        },
+        {
+            "startTime": "2024-03-01T16:00:00Z",
+            "values": {
+                "humidity": 75.64,
+                "sunriseTime": "2024-03-01T23:11:00Z",
+                "sunsetTime": "2024-03-02T10:05:00Z",
+                "temperature": -27.79,
+                "weatherCode": 1001,
+                "windDirection": 262.53,
+                "windSpeed": 0.88
+            }
+        },
+        {
+            "startTime": "2024-03-01T17:00:00Z",
+            "values": {
+                "humidity": 75.7,
+                "sunriseTime": "2024-03-01T23:11:00Z",
+                "sunsetTime": "2024-03-02T10:05:00Z",
+                "temperature": -27.56,
+                "weatherCode": 1102,
+                "windDirection": 250.97,
+                "windSpeed": 0.75
+            }
+        },
+        {
+            "startTime": "2024-03-01T18:00:00Z",
+            "values": {
+                "humidity": 75.74,
+                "sunriseTime": "2024-03-01T23:11:00Z",
+                "sunsetTime": "2024-03-02T10:05:00Z",
+                "temperature": -28.18,
+                "weatherCode": 1001,
+                "windDirection": 247.43,
+                "windSpeed": 0.69
+            }
+        },
+        {
+            "startTime": "2024-03-01T19:00:00Z",
+            "values": {
+                "humidity": 74.94,
+                "sunriseTime": "2024-03-01T23:11:00Z",
+                "sunsetTime": "2024-03-02T10:05:00Z",
+                "temperature": -28.81,
+                "weatherCode": 1001,
+                "windDirection": 254.97,
+                "windSpeed": 0.65
+            }
+        },
+        {
+            "startTime": "2024-03-01T20:00:00Z",
+            "values": {
+                "humidity": 74.4,
+                "sunriseTime": "2024-03-01T23:11:00Z",
+                "sunsetTime": "2024-03-02T10:05:00Z",
+                "temperature": -29.48,
+                "weatherCode": 1001,
+                "windDirection": 259.23,
+                "windSpeed": 0.77
+            }
+        },
+        {
+            "startTime": "2024-03-01T21:00:00Z",
+            "values": {
+                "humidity": 73.85,
+                "sunriseTime": "2024-03-01T23:11:00Z",
+                "sunsetTime": "2024-03-02T10:05:00Z",
+                "temperature": -30.15,
+                "weatherCode": 1102,
+                "windDirection": 259.23,
+                "windSpeed": 0.89
+            }
+        },
+        {
+            "startTime": "2024-03-01T22:00:00Z",
+            "values": {
+                "humidity": 74.1,
+                "sunriseTime": "2024-03-01T23:11:00Z",
+                "sunsetTime": "2024-03-02T10:05:00Z",
+                "temperature": -29.62,
+                "weatherCode": 1102,
+                "windDirection": 259.23,
+                "windSpeed": 0.85
+            }
+        },
+        {
+            "startTime": "2024-03-01T23:00:00Z",
+            "values": {
+                "humidity": 74.34,
+                "sunriseTime": "2024-03-01T23:11:00Z",
+                "sunsetTime": "2024-03-02T10:05:00Z",
+                "temperature": -29.08,
+                "weatherCode": 1102,
+                "windDirection": 257.06,
+                "windSpeed": 0.8
+            }
+        },
+        {
+            "startTime": "2024-03-02T00:00:00Z",
+            "values": {
+                "humidity": 74.59,
+                "sunriseTime": "2024-03-01T23:11:00Z",
+                "sunsetTime": "2024-03-02T10:05:00Z",
+                "temperature": -28.54,
+                "weatherCode": 1102,
+                "windDirection": 257.06,
+                "windSpeed": 0.75
+            }
+        },
+        {
+            "startTime": "2024-03-02T01:00:00Z",
+            "values": {
+                "humidity": 71.74,
+                "sunriseTime": "2024-03-01T23:11:00Z",
+                "sunsetTime": "2024-03-02T10:05:00Z",
+                "temperature": -24.16,
+                "weatherCode": 1101,
+                "windDirection": 257.06,
+                "windSpeed": 0.8
+            }
+        },
+        {
+            "startTime": "2024-03-02T02:00:00Z",
+            "values": {
+                "humidity": 68.9,
+                "sunriseTime": "2024-03-01T23:11:00Z",
+                "sunsetTime": "2024-03-02T10:05:00Z",
+                "temperature": -19.77,
+                "weatherCode": 1101,
+                "windDirection": 251.47,
+                "windSpeed": 0.85
+            }
+        },
+        {
+            "startTime": "2024-03-02T03:00:00Z",
+            "values": {
+                "humidity": 66.05,
+                "sunriseTime": "2024-03-01T23:11:00Z",
+                "sunsetTime": "2024-03-02T10:05:00Z",
+                "temperature": -15.38,
+                "weatherCode": 1101,
+                "windDirection": 251.47,
+                "windSpeed": 0.9
+            }
+        },
+        {
+            "startTime": "2024-03-02T04:00:00Z",
+            "values": {
+                "humidity": 64.27,
+                "sunriseTime": "2024-03-01T23:11:00Z",
+                "sunsetTime": "2024-03-02T10:05:00Z",
+                "temperature": -13.64,
+                "weatherCode": 1101,
+                "windDirection": 251.47,
+                "windSpeed": 0.96
+            }
+        }
+    ]
+}

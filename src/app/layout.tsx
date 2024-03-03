@@ -1,5 +1,10 @@
-import { HeaderLayout } from "@/layout/Header/header.layout";
+'use client';
+
+import Provider from "@/components/ThemeProvider/themeProvider";
 import "./globals.css";
+
+
+import WeatherProvider from "@/context/weatherContext";
 
 export default function RootLayout({
   children,
@@ -7,8 +12,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
+    <WeatherProvider>
+      <html lang="en">
+          <Provider><body>{children}</body></Provider>
+      </html>
+    </WeatherProvider>
   );
 }

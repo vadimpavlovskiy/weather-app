@@ -3,12 +3,20 @@ interface IntervalValues {
   temperature: number;
   weatherCode: number;
   windSpeed: number;
+  sunriseTime: string;
+  sunsetTime: string;
+  windDirection: number;
 }
+export interface IntervalData {
+  day: string;
+  data: Interval[];
+}
+
 export interface Interval {
   startTime: string;
   values: IntervalValues;
 }
-interface Timeline {
+export interface Timeline {
   timestep: string;
   endTime: string;
   startTime: string;
