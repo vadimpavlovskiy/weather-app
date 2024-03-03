@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Basic Overview
 
-## Getting Started
+Using the Weather REST API from [Tomorrow.io](https://www.tomorrow.io/weather-api/) and [OpenWeather Geocoding API](https://openweathermap.org/api/geocoding-api), I created a basic weather forecast frontend app for my GitHub.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [App Gif Overview](#app-gif-overview)
+- [Features](#💻-features)
+- [Used libraries/API](#🛠-used-librariesapi)
+- [Difficulties encountered](#difficulties-encountered)
+- [Rest API Limitations](#rest-api-limitations)
+- [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## App Gif Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnd0cGs4OTRsdGpyOGFidjQ2YnByY2Q4aTc0cWVocTg4ZGNobzcyNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ha2ONI64qt72TSWQHF/giphy.gif)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 💻 Features
 
-## Learn More
+- Switch between light and dark mode
+- Responsive design
+- Hourly/5-day weather forecast
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠 Used libraries/API
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js
+- React
+- Tailwind
+- [Next-themes](https://github.com/pacocoursey/next-themes)
+- [React-switch](https://github.com/markusenglund/react-switch)
+- [React-icons](https://react-icons.github.io/react-icons/)
+- [Classnames](https://github.com/JedWatson/classnames)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Difficulties encountered
 
-## Deploy on Vercel
+- Rest API limitations. The Tommorow.io API only allows 25 API calls per hour, so for the test I created a mock data in the /data folder.
+- Tailwind is not very convenient for working with scalable and large components. I will use [styled-components](https://styled-components.com/) instead of Tailwind in my future projects.
+- Next-themes didn't work perfectly from scratch, so I used [some fix from Youtube](https://www.youtube.com/watch?v=optD7ns4ISQ).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Rest API Limitations
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Limitations of [Tomorrow.io Weather API](https://support.tomorrow.io/hc/en-us/articles/20273728362644-Free-API-Plan-Rate-Limits#:~:text=Under%20this%20plan%2C%20users%20are,25%20requests%20per%20hour). The free Tomorrow.io Weather API only allows 25 API calls per hour and 500 requests per day, so I created some simulated data to use in dev mode. Also available [basic functions and data only](https://docs.tomorrow.io/reference/data-layers-core).
+- [OpenWeather Geocoding API](https://openweathermap.org/api/one-call-3). 2000 API requests per day.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
