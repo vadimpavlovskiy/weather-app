@@ -1,5 +1,4 @@
 import Image from "next/image"
-import { IconType } from "react-icons"
 import { WiStrongWind } from "react-icons/wi"
 
 export const SmallCardComponent = ({date, temperature, wind, weatherCode}:{date: number, temperature?: string | null, wind?: string | null, weatherCode?: number | null}) => {

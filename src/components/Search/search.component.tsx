@@ -1,6 +1,6 @@
 'use client'
 import { WeatherContext } from "@/context/weatherContext";
-import { ChangeEvent, ChangeEventHandler, useContext, useEffect, useState } from "react"
+import { ChangeEvent, useContext, useEffect, useState } from "react"
 export const SearchComponent = ({}) => {
     const [search, setSearch] = useState<null | string>(null);
     const [cities, setCities] = useState<null | Array<any>>(null);
